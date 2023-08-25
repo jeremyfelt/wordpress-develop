@@ -1,8 +1,8 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
     "name": "WordPress Core Development",
-    "dockerComposeFile": "docker-compose.yml",
-    "service": "app",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "wordpress-develop",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
     // Features to add to the dev container. More info: https://containers.dev/features.
